@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>highschool</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
+        integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <div class="head">
+        <div>
+                <input id="btn" type="button" value="ㄱㅈㄱㅅ" onclick="test()" >
+                <script>
+                    $("#btn").on("move",function(evt){
+                          $("#btn").css("color","white")   
+                    })
+                </script>
+            <nav><i></i></nav>
+        </div>
+    </div>
+    </header>
+    <div class="container" id="notice"><div>
+        <h6>공지</h6>
+        <div class="card">
+            <div><p>2019년도 1회차,2회차 기출문제를 업로드 하였습니다</p></div>
+        </div>
+    <br>
+    <div class="card">
+        <div class="year">2018년도</div>
+        <div class="time">1회차</div><br>
+        <div><span>국어</span>
+             <span>영어</span>
+             <span>사회</span>
+             <span>과학</span>
+             <br>
+        </div>
+        <br>
+        <div class="time">2회차</div><br>
+        <div><span>국어</span>
+            <span>영어</span>
+            <span>사회</span>
+            <span>과학</span>
+        </div>
+    </div>
+       <br>
+       <br>        
+    <div class="card">
+        <div class="year">2019년도</div>
+        <div class="time">1회차</div><br>
+        <div><span>국어</span>
+             <span>영어</span>
+             <span>사회</span>
+             <span>과학</span>
+        </div><br>
+        <div class="time">2회차</div><br>
+        <div><span>국어</span>
+            <span>영어</span>
+            <span>사회</span>
+            <span>과학</span>
+       </div>        
+    </div> 
+</body>
+</html>
