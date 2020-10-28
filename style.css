@@ -1,0 +1,37 @@
+p, span,a{
+    color:blue;
+}
+.head{
+    background-color:rgb(15, 191, 204);
+    height: 60px;
+    margin:-10px;
+}
+.container{
+    padding: 20px 30px;
+    text-indent: 10px;
+}
+#btn{
+    position:sticky;
+    top:0;
+    height: 40px;py
+    width: 80px;
+    margin: 10px 30px;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    background-color:rgb(15, 191, 204);
+    border-radius: 5px;
+}
+.year{
+    font-size:25px;
+    color: rgb(15, 191, 204);
+}
+.time{
+    font: 20px bold;
+    color:black;
+}
+.card{
+    border: 1px solid rgb(170, 166, 166) ;
+    margin: 5px;
+    padding: 5px;
+}
